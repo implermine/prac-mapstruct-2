@@ -4,10 +4,9 @@ import org.example.domain.NoSetterAutomaticallyExcludedFromMapping.model.BookDto
 import org.example.domain.NoSetterAutomaticallyExcludedFromMapping.model.Book_NoSetter;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-public class TestEntry {
+public class NoSetterTest {
 
     private final BookNoSetterMapper mapper = Mappers.getMapper(BookNoSetterMapper.class);
 
