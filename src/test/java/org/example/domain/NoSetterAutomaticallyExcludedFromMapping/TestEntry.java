@@ -16,7 +16,7 @@ public class TestEntry {
     void test(){
         BookDto_NoSetter bookDto = new BookDto_NoSetter();
         bookDto.setName("name");
-        bookDto.setIsbn(1234L);
+        bookDto.setIsbn(1234L);;
 
         Book_NoSetter book = mapper.toEntity(bookDto);
 
