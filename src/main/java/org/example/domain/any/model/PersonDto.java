@@ -5,6 +5,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.util.List;
+
 @NoArgsConstructor
 @Getter
 @Setter
@@ -14,5 +16,7 @@ public class PersonDto {
     private String name;
     private int height;
     private String personDetailAliasName;
+
+    private List<String> talents;
 
 }
