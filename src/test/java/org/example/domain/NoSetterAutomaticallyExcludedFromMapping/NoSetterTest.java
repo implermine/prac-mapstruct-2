@@ -11,7 +11,7 @@ public class NoSetterTest {
     private final BookNoSetterMapper mapper = Mappers.getMapper(BookNoSetterMapper.class);
 
     @Test
-    @DisplayName("Setter가 없으면 자동으로 mapping에서 포기하나?")
+    @DisplayName("setXXX가 없으면 자동으로 mapping에서 포기하나?")
     void test(){
         BookDto_NoSetter bookDto = new BookDto_NoSetter();
         bookDto.setName("name");

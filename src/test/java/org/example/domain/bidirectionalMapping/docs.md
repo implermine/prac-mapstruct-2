@@ -1,0 +1,1 @@
+JPA 양방향 연관관계 entity를 Mapping한다.
